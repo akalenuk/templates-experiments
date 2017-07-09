@@ -32,3 +32,4 @@ int main()
     for(auto ai : a)
         std::cout << ai << " ";
 }
+
