@@ -30,6 +30,6 @@ int main()
     auto a = std::array<int, 8> {6,5,4,7,3,5,1,2};
     static_sort(a);
     for(auto ai : a)
-        std::cout << ai << " ";
+        std::cout << ai << std::endl;
 }
 
